@@ -1,0 +1,124 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Mirabilândia",
+      "image": "acessabr/src/images/mirabilandia.jpg",
+      "category": "parques",
+      "description": "Parque temático com diversas atrações, como montanhas-russas, brinquedos giratórios, além de atrações para crianças",
+      "link": "https://mirabilandia.com.br",
+      "location": {
+        "lat": "-8.03281",
+        "long": "-34.87374"
+      },
+      "facilities": [
+          {"item": 1, "status": false},
+          {"item": 2, "status": false},
+          {"item": 3, "status": true},
+          {"item": 4, "status": false},
+          {"item": 5, "status": true},
+          {"item": 6, "status": false},
+          {"item": 7, "status": false},
+          {"item": 8, "status": true},
+          {"item": 9, "status": false},
+          {"item": 10, "status": false}
+        ]
+    },
+    {
+      "id": 2,
+      "name": "Centro Histórico de Olinda",
+      "image": "acessabr/src/images/centrohistorico.jpeg",
+      "category": "Praças",
+      "description": "Centro da cidade histórica de Olinda, onde há várias construções barrocas em estilo português.",
+      "link": "https://viagemeturismo.abril.com.br/cidades/olinda/",
+      "location": {
+        "lat": "-8.01336",
+        "long": "-34.85031"
+      },
+      "facilities": [
+        {"item": 1, "status": false},
+        {"item": 2, "status": false},
+        {"item": 3, "status": false},
+        {"item": 4, "status": false},
+        {"item": 5, "status": false},
+        {"item": 6, "status": false},
+        {"item": 7, "status": false},
+        {"item": 8, "status": true},
+        {"item": 9, "status": false},
+        {"item": 10, "status": false}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Praia dos Milagres",
+      "image": "acessabr/src/images/praia.jpg",
+      "category": "Praias",
+      "description": "Faixa litorânea próxima ao Centro Histórico de Olinda.",
+      "link": "https://www.expedia.com.br/Praia-Dos-Milagres-Recife.d6191256.Guia-de-Viagem?pwaLob=wizard-package-pwa",
+      "location": {
+        "lat": "-8.02114",
+        "long": "-34.85153"
+      },
+      "facilities": [
+        {"item": 1, "status": false},
+        {"item": 2, "status": false},
+        {"item": 3, "status": false},
+        {"item": 4, "status": false},
+        {"item": 5, "status": false},
+        {"item": 6, "status": true},
+        {"item": 7, "status": false},
+        {"item": 8, "status": true},
+        {"item": 9, "status": false},
+        {"item": 10, "status": false}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hotel Pousada São Francisco",
+      "image": "acessabr/src/images/pousada.jpg",
+      "category": "Hotéis",
+      "description": "Pousada próxima ao Centro Histórico de Olinda. Contém serviços como Wi-fi gratuito, TV a cabo, frigobar e Ar-condicionado.",
+      "link": "https://www.pousadasaofrancisco.com.br",
+      "location": {
+        "lat": "-8.01557",
+        "long": "-34.84751"
+      },
+      "facilities": [
+        {"item": 1, "status": false},
+        {"item": 2, "status": false},
+        {"item": 3, "status": false},
+        {"item": 4, "status": false},
+        {"item": 5, "status": false},
+        {"item": 6, "status": false},
+        {"item": 7, "status": false},
+        {"item": 8, "status": false},
+        {"item": 9, "status": true},
+        {"item": 10, "status": false}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tribuna Sabores Ibéricos",
+      "image": "acessabr/src/images/restaurante.jpeg",
+      "category": "Restaurantes",
+      "description": "Restaurante português tradicional à la carte com carta de vinhos leves e encorpados em espaço intimista informal.",
+      "link": "https://www.instagram.com/tribunasaboresibericos/?hl=pt",
+      "location": {
+        "lat": "-8.01716",
+        "long": "-34.85216"
+      },
+      "facilities": [
+        {"item": 1, "status": false},
+        {"item": 2, "status": false},
+        {"item": 3, "status": false},
+        {"item": 4, "status": false},
+        {"item": 5, "status": false},
+        {"item": 6, "status": false},
+        {"item": 7, "status": false},
+        {"item": 8, "status": true},
+        {"item": 9, "status": false},
+        {"item": 10, "status": false}
+      ]
+    }
+  ]
+}
