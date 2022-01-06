@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Mirabilândia",
-      "image": "acessabr/src/images/mirabilandia.jpg",
+      "image": "/images/mirabilandia.jpg",
       "category": "parques",
       "description": "Parque temático com diversas atrações, como montanhas-russas, brinquedos giratórios, além de atrações para crianças",
       "link": "https://mirabilandia.com.br",
@@ -27,7 +27,7 @@
     {
       "id": 2,
       "name": "Centro Histórico de Olinda",
-      "image": "acessabr/src/images/centrohistorico.jpeg",
+      "image": "/images/centrohistorico.jpeg",
       "category": "Praças",
       "description": "Centro da cidade histórica de Olinda, onde há várias construções barrocas em estilo português.",
       "link": "https://viagemeturismo.abril.com.br/cidades/olinda/",
@@ -51,7 +51,7 @@
     {
       "id": 3,
       "name": "Praia dos Milagres",
-      "image": "acessabr/src/images/praia.jpg",
+      "image": "/images/praia.jpg",
       "category": "Praias",
       "description": "Faixa litorânea próxima ao Centro Histórico de Olinda.",
       "link": "https://www.expedia.com.br/Praia-Dos-Milagres-Recife.d6191256.Guia-de-Viagem?pwaLob=wizard-package-pwa",
@@ -75,7 +75,7 @@
     {
       "id": 4,
       "name": "Hotel Pousada São Francisco",
-      "image": "acessabr/src/images/pousada.jpg",
+      "image": "/images/pousada.jpg",
       "category": "Hotéis",
       "description": "Pousada próxima ao Centro Histórico de Olinda. Contém serviços como Wi-fi gratuito, TV a cabo, frigobar e Ar-condicionado.",
       "link": "https://www.pousadasaofrancisco.com.br",
@@ -99,7 +99,7 @@
     {
       "id": 5,
       "name": "Tribuna Sabores Ibéricos",
-      "image": "acessabr/src/images/restaurante.jpeg",
+      "image": "/images/restaurante.jpeg",
       "category": "Restaurantes",
       "description": "Restaurante português tradicional à la carte com carta de vinhos leves e encorpados em espaço intimista informal.",
       "link": "https://www.instagram.com/tribunasaboresibericos/?hl=pt",

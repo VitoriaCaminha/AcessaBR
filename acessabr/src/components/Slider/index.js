@@ -1,54 +1,42 @@
-import React, {useState, useEffect, useContext} from 'react'
-import { FilterContext } from '../../contexts/FilterContext'
+import React from 'react'
 import SwiperCore, {Pagination} from 'swiper'
 import { Swiper, SwiperSlide} from 'swiper/react'
-import Card from '../Card'
-import api from '../../config/api'
-
-
+import Card from '../Card/card1centro'
+import Card1 from '../Card/card2praia'
+import Card2 from '../Card/card3hotel'
+import Card3 from '../Card/card4praia'
+import Card4 from '../Card/card5restaurante'
 import 'swiper/swiper-bundle.css'
 
 SwiperCore.use([Pagination])
 
 function Slider() {
-    const { filteredPlace} = useContext(FilterContext)
-    const [places, setPlaces] = useState([])
-
-    useEffect(() => {
-        const fetchPlaces = async () => {
-            const result = await api.get(`?category_like=${filteredPlace ? filteredPlace : ''}`)
-
-            console.log(result)
-
-            if (result.status === 200) {
-                setPlaces(result.data.places)
-            }
-        }
-
-        fetchPlaces()
-    }, [filteredPlace])
-
     return(
-        <Swiper
+        <Swiper slidesPerView={1}
             breakpoints={{
-                300: {
-                    slidesPerView: 1
-                },
                 767: {
-                    slidesPerView: 2 
+                    slidesPerView: 2
                 },
                 1024: {
-                    slidesPerView: 4 
+                    slidesPerView: 4
                 }
             }}
         >
-            {
-                places.map(item => (
-                    <SwiperSlide key={item.id} >
-                        <Card key={item.id} item={item} />
-                    </SwiperSlide>
-                 ))
-            }
+            <SwiperSlide>
+                <Card/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card1/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card2/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card3/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Card4/>
+            </SwiperSlide>
         </Swiper>
     )
 }
